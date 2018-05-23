@@ -4,8 +4,8 @@ class Student < User
     @knowledge = []
   end
 
-  def learn("Javascript Ember Elixir knowledge")
-    @knowledge << "Javascript Ember Elixir knowledge"
+  def learn(knowledge = "Ruby framework Rails gem bundle update")
+    @knowledge << knowledge
   end
 
 end
